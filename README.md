@@ -29,7 +29,7 @@ You operate a used car lot, and need to have an application where you can update
 
 ### Behavior
 
-1. Create an array of cars in the `inventory.json` file (see example structure below). Put at least three cars in the array.
+1. Create an array of cars in the `inventory.json` file (see example structure below). Put at least three cars in the array.(DONE)
 1. When your page first loads, you need to use an XHR to load the contents of the JSON file, and parse them into a native JavaScript object.
 1. Loop over your array of cars and build up an HTML string to build a card for each car. Also, use Bootstrap to create rows. Each row should contain 3 columns. Make sure you have a parent element with a class of `container`.
 1. Put a standard Bootstrap navbar element at the top of your page.
@@ -75,7 +75,7 @@ You operate a used car lot, and need to have an application where you can update
 
 function populatePage (inventory) {
   // Loop over the inventory and populate the page
-  
+
   // Now that the DOM is loaded, establish all the event listeners needed
   CarLot.activateEvents();
 }
