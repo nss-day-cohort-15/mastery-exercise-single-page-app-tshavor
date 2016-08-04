@@ -1,4 +1,3 @@
-// JSON FILE WITH 5 CAR OBJECTS:
 {
   "cars": [
     {
@@ -9,7 +8,7 @@
       "color": "BlueViolet",
       "purchased": false,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    }
+    },
     {
       "make": "Ford",
       "model": "Focus",
@@ -18,31 +17,13 @@
       "color": "CornflowerBlue",
       "purchased": false,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    }
+    },
     {
       "make": "Mazda",
       "model": "RX-7",
       "year": "1985",
       "price": "1999",
       "color": "DarkGoldenRod",
-      "purchased": false,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    }
-    {
-      "make": "Honda",
-      "model": "Accord",
-      "year": "2015",
-      "price": "27,599",
-      "color": "DarkGreen",
-      "purchased": false,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    }
-    {
-      "make": "Jeep",
-      "model": "Wrangler",
-      "year": "2016",
-      "price": "34,999",
-      "color": "FireBrick",
       "purchased": false,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }
