@@ -4,7 +4,7 @@
       "make": "Nissan",
       "model": "Rogue",
       "year": "2014",
-      "price": "12999",
+      "price": "$12,999",
       "color": "BlueViolet",
       "purchased": false,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -13,7 +13,7 @@
       "make": "Ford",
       "model": "Focus",
       "year": "2015",
-      "price": "17499",
+      "price": "$17,499",
       "color": "CornflowerBlue",
       "purchased": false,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
@@ -22,7 +22,7 @@
       "make": "Mazda",
       "model": "RX-7",
       "year": "1985",
-      "price": "1999",
+      "price": "$1,999",
       "color": "DarkGoldenRod",
       "purchased": false,
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
