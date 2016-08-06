@@ -14,12 +14,13 @@ function populatePage (cars) {
          <p><b>Model:</b> ${car.model}</p>
          <p><b>Year:</b> ${car.year}</p>
          <p><b>Price:</b> ${car.price}</p>
-         <p><b>Color:</b> ${car.color}</p>
+         <p><b>Color:</b> <span class="color">${car.color}</span></p>
          <p><b>Purchased:</b> ${car.purchased}</p>
-         <p><b>Description:</b> <span>${car.description}</span></p>
+         <p ><b>Description:</b> <span class= "description">${car.description}</span></p>
   			</div>
         `
         // console.log(container);
+  })
 
 
 
@@ -29,7 +30,6 @@ function populatePage (cars) {
 
 // Tip: When a text is hooked in a <span> element, you can style it with CSS,
 // or manipulate it with JavaScript.
-  })
 
 // The second IIFE should augment the original one with a function that creates all of the `eventHandlers`
 // that you need for the application. Name the function `activateEvents`.

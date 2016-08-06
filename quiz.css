@@ -2,12 +2,21 @@
 .col-md-3{
 	border-style: solid;
 	color: black;
+	/*border: 7px dotted black;*/
 }
 
 #bigContainer{
 
 }
 
+#userInput{
+
+}
+
+.changeCard {
+  border: 7px dotted black;
+  background-color: lightgray;
+}
 
 /*///////////////////////MODAL PLAY///////////////////////////////*/
 /* Style the Image Used to Trigger the Modal */
