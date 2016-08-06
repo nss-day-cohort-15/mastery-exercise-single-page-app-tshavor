@@ -2,10 +2,23 @@
 
 
 
-// The function must accept two arguments.
+// The function must accept one argument:
     // 1. A car DOM element that was clicked on.
-    // 1. A color name
-    ////////////////////////////////////////////////////////////////
+function listeners () {
+	var userInput= document.getElementById("userInput");
+	var clickListener= document.getElementsByClassName("cards");
+
+	for (var i = 0; i<clickListener.length; i++) {
+		var currentCard= clickListener[i];
+		console.log(clickListener[i]);
+		currentCard.addEventListener("click", function (evt){
+			console.log(evt.currentTarget);
+			userInput.focus();
+			userInput.value=("");
+		})
+	}
+}
+
 
 
 // One function resets the border thickness and background color for each car
