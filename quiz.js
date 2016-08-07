@@ -9,14 +9,14 @@ function populatePage (cars) {
   container.innerHTML +=
 
         `
-    		 <div class="cards col-md-3 col-md-offset-1">
+    		 <div class="cards col-md-3 col-md-offset-1" style="border-color:${car.color}">
    			 <p><b>Make:</b> ${car.make}</p>
          <p><b>Model:</b> ${car.model}</p>
          <p><b>Year:</b> ${car.year}</p>
          <p><b>Price:</b> ${car.price}</p>
-         <p><b>Color:</b> <span class="color">${car.color}</span></p>
+         <p><b>Color:</b> <span>${car.color}</span></p>
          <p><b>Purchased:</b> ${car.purchased}</p>
-         <p ><b>Description:</b> <span class= "description">${car.description}</span></p>
+         <p ><b>Description:</b> <span"description">${car.description}</span></p>
   			</div>
         `
         // console.log(container);
