@@ -12,7 +12,7 @@ function listeners () {
 		var currentCard= clickListener[i];
 		// console.log(clickListener[i]);
 		currentCard.addEventListener("click", function (event){
-			console.log(event.currentTarget);
+			// console.log(event.currentTarget);
 			var cardSelected= event.currentTarget;
 			userInput.focus();
 			userInput.value=("");
@@ -37,18 +37,18 @@ function changeLook(clickListener, cardSelected){
 //////////call the function "revertLook"////////////////////
 
 function revertLook(clickListener, cardSelected){
-	console.log("function revertLook is ready to go!");
+	// console.log("function revertLook is ready to go!");
 
 	for (var i = 0; i < clickListener.length; i++) {
 	  clickListener[i].classList.remove("changeCard");
 	  clickListener[i].classList.add("col-md-3")
-}
-}
 
+
+
+}
+}
 
 {
-
-
 
 };
 

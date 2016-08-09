@@ -1,31 +1,35 @@
 {
   "cars": [
     {
-      "make": "Nissan",
-      "model": "Rogue",
-      "year": "2014",
-      "price": "$12,999",
+      "image": "/clown_car_images/ClownCar1.jpeg",
+      "make": "VW",
+      "model": "Van",
+      "year": "1968",
+      "price": "$6,999",
       "color": "BlueViolet",
       "purchased": false,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "A fine example of a clown car, but as a convertible!"
     },
     {
-      "make": "Ford",
-      "model": "Focus",
-      "year": "2015",
-      "price": "$17,499",
+      "image": "/clown_car_images/ClownCar2.jpeg",
+      "make": "Dodge",
+      "model": "Van",
+      "year": "1978",
+      "price": "$7,499",
       "color": "CornflowerBlue",
       "purchased": false,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "A great clown car to take the family camping in..."
     },
     {
-      "make": "Mazda",
-      "model": "RX-7",
+      "image": "/clown_car_images/ClownCar3.jpeg",
+      "make": "Custom",
+      "model": "Toy",
       "year": "1985",
       "price": "$1,999",
       "color": "DarkGoldenRod",
       "purchased": false,
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "When space is limited, try out this little clowncar!"
     }
   ]
 }
+
