@@ -17,20 +17,13 @@ function populatePage (cars) {
          <p><b>Price:</b> ${car.price}</p>
          <p><b>Color:</b> <span>${car.color}</span></p>
          <p><b>Purchased:</b> ${car.purchased}</p>
-         <p ><b>Description:</b> ${car.description}</p>
+         <p ><b>Description:</b> <span class="enteredText">${car.description}</span></p>
   			</div>
         `
         // console.log(container);
   })
 
-// addMessage(populatePage)
-// // add a function that links the user input to the selected card's description:
-// function addMessage(populatePage){
-//   console.log("addMessage is ready to go");
-//   var message= userInput.value;
-//   cards.innerHTML+= `${car.description}`
 
-// }
 // The second IIFE should augment the original one with a function that creates all of the `eventHandlers`
 // that you need for the application. Name the function `activateEvents`.
   // Now that the DOM is loaded, establish all the event listeners needed

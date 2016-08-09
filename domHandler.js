@@ -7,6 +7,7 @@
 function listeners () {
 	var userInput= document.getElementById("userInput");
 	var clickListener= document.getElementsByClassName("cards");
+	var textLocation = null;
 
 	for (var i = 0; i<clickListener.length; i++) {
 		var currentCard= clickListener[i];
@@ -16,11 +17,19 @@ function listeners () {
 			var cardSelected= event.currentTarget;
 			userInput.focus();
 			userInput.value=("");
+
+			textLocation = cardSelected.getElementsByClassName("enteredText")[0];
 	///////call the function "changeLook"////////
 	revertLook(clickListener, cardSelected);
 	changeLook(clickListener,cardSelected)
 		})
 	}
+	userInput.addEventListener("keyup", function(){
+		if (textLocation !== null) {
+		  textLocation.innerHTML = userInput.value;
+		}
+
+  })
 	// now that a card is selected, run the function below to alter the look of the card.
 }
 
@@ -51,10 +60,6 @@ function revertLook(clickListener, cardSelected){
 {
 
 };
-
-
-
-
 
 
 
