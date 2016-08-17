@@ -21,7 +21,7 @@ function listeners () {
 			textLocation = cardSelected.getElementsByClassName("enteredText")[0];
 	///////call the function "changeLook"////////
 	revertLook(clickListener, cardSelected);
-	changeLook(clickListener,cardSelected)
+	iffeNameHere.changeLook(cardSelected, "gray")
 		})
 	}
 	userInput.addEventListener("keyup", function(){
@@ -35,7 +35,7 @@ function listeners () {
 
 // The other function changes the thickness
 // of the border of a car element, and changes its background color.
-function changeLook(clickListener, cardSelected){
+function changeLook(cardSelected, randomColor){
     cardSelected.classList.add("changeCard");
     // cardSelected.classList.remove("col-md-3");
   };
