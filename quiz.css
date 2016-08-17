@@ -1,0 +1,25 @@
+body  {
+    background-image: url("/clown_car_images/balloon-seamless-pastel-color-background-retro-40064619.jpg");
+    /*background-color: #cccccc;*/
+}
+.col-md-3{
+	border-style: solid;
+	padding-top: 5px;
+	color: black;
+	background-color: #EEEEEE;
+	/*border: 7px dotted black;*/
+}
+
+#bigContainer{
+
+}
+
+#userInput{
+
+}
+
+.changeCard {
+  border: 7px dotted;
+  background-color: #E7D418;
+}
+
